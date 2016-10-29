@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ciclos;
+
+import java.util.Random;
+
+/**
+ *
+ * @author Oscar
+ */
+public class SopaLetras {
+   static public void main(String ... args){
+       
+       byte renglon=5;
+       byte cols=5;
+       
+       for (int i = 0; i < renglon; i++){
+           for(int j=0;j<cols;j++){
+               char c=(char)('A' + new Random().nextInt(27));
+               //System.out.print(c+" ");
+               System.out.printf("%c ",c);
+           }
+           System.out.format("%n");//es como println
+               
+           
+       }
+   } 
+}
