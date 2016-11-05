@@ -1,0 +1,23 @@
+{
+  "name": "jserver",
+  "version": "1.0.0",
+  "description": "mi pagina personal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Defiler90/HTML5JS.git"
+  },
+  "author": "oscar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Defiler90/HTML5JS/issues"
+  },
+  "homepage": "https://github.com/Defiler90/HTML5JS#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
